@@ -6,14 +6,18 @@
 class Game{
     constructor(){
       this.missed = 0,
-      this.phrases = ['eagle eye', 'monkeys at midnight', 'loose knit socks', 'left head of cerberus', 'big knife brawl'],
+      this.phrases = [
+          'eagle eye', 
+          'monkeys at midnight', 
+          'loose knit socks', 
+          'left head of cerberus', 
+          'big knife brawl', 
+          'One Mean mama'],
       this.activePhrase = null
     }   
 // returns one of five predefined phrases
     getRandomPhrase(){
-        return this.phrases[Math.floor(Math.random() * 5)];
+        return {phrase: this.phrases[Math.floor(Math.random() * 6)]};
     }
    }
 
-const game = new Game;
-console.log(game.getRandomPhrase())
