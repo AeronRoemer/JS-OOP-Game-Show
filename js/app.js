@@ -10,6 +10,10 @@
     const game = new Game();
     game.startGame();
     game.activePhrase.showMatchedLetter('e');
+    game.activePhrase.showMatchedLetter('i');
+    game.removeLife();
+    game.removeLife();
+    game.gameOver();
  });
 //adds event listener to all keyboard buttons
 // keyButton.forEach(element => addEventListener('click', (event) => {

@@ -39,19 +39,15 @@
           }
         })
     };
-
+    
+   // shows a letter when matched by changing the li's class
     showMatchedLetter(l){
     const toShow = document.querySelectorAll(`.${l}`)
     toShow.forEach(element => {
       element.classList.remove("hide");
       element.classList.add("show");
-      console.log(element);
     })
     };
 
-  //`showMatchedLetter()`: Reveals the letter(s) on the board that matches the
-// player's selection. To reveal the matching letter(s), select all of the letter DOM elements that 
-//have a CSS class name that matches the selected letter and replace each selected 
-// element's `hide` CSS class with the `show` CSS class.
+
  }
-// .add("letter").add(`${element}`)
