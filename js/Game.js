@@ -17,7 +17,34 @@ class Game{
     }   
 // returns one of five predefined phrases
     getRandomPhrase(){
-        return {phrase: this.phrases[Math.floor(Math.random() * 6)]};
+        return this.phrases[Math.floor(Math.random() * 6)];
     }
+   
+    startGame(){
+        // hides 'start game' screen
+        const overlay = document.getElementById('overlay');
+        overlay.style.display = 'none';
+        // retrieves a phrase, displays it, sets active phrase
+        const phrase = new Phrase(this.getRandomPhrase());
+        this.activePhrase = phrase;
+        phrase.addPhraseToDisplay();
+    
+       
+}
+    handleInteraction(){
+
+    };
+
+    checkForWin(){
+
+    };
+    removeLife(){
+
+    };
+    gameOver(){
+
+    };
+    
    }
+
 

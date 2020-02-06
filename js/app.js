@@ -2,7 +2,17 @@
  * Project 4 - OOP Game App
  * app.js */
 
-const game = new Game();
-const randomPhrase = game.getRandomPhrase();
-const phrase = new Phrase(randomPhrase.phrase);
-phrase.addPhraseToDisplay();
+ const keyButton = document.querySelectorAll('.key');
+ const resetButton = document.getElementById('btn__reset');
+
+ //adds event listeners to 'start game' button
+ resetButton.addEventListener('click', () => {
+    const game = new Game();
+    game.startGame();
+    game.activePhrase.showMatchedLetter('e');
+ });
+//adds event listener to all keyboard buttons
+// keyButton.forEach(element => addEventListener('click', (event) => {
+//     console.log(event.target);
+//     return event.target;
+//  }));
