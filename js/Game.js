@@ -47,8 +47,7 @@ class Game{
     // check for hidden elements, if none remain return true
     checkForWin(){
     if (document.getElementsByClassName("hide").length === 0){
-        let classG = this;
-        setTimeout(classG.gameOver('win').bind(this.gameOver), 15000);
+        setTimeout(this.gameOver, 1000, 'win');
       } 
     };
 
