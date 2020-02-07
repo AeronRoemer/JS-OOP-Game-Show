@@ -28,18 +28,7 @@
       }
     });
    }
-     // checks to see if the letter selected matches a phrase
-     checkLetter(letter){
-        this.phraseArr.forEach((element, index, arr) => {
-          if (element === letter){
-          //console.log(arr[index], index); arr[index]
-          return true;
-          } else {
-          return false;
-          }
-        })
-    };
-    
+
    // shows a letter when matched by changing the li's class
     showMatchedLetter(l){
     const toShow = document.querySelectorAll(`.${l}`)
@@ -48,6 +37,14 @@
       element.classList.add("show");
     })
     };
+     // checks to see if the letter selected matches a phrase
+     checkLetter(letter){
+        if (this.phraseArr.includes(letter)) {
+         return true;
+        } else {
+        return false;
+        }
+        
+     }
+  }
 
-
- }
