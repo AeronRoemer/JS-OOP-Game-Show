@@ -12,6 +12,8 @@ class Game{
           'loose knit socks', 
           'left head of cerberus', 
           'big knife brawl', 
+          'stranGe UfO sighting',
+          'lonesome lizards',
           'One Mean mama'],
       this.activePhrase = null
     }   
