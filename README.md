@@ -19,7 +19,7 @@ The main technologies and concepts demonstrated in this project are
 * CSS Media Queries
 
 ## Logo
-![Phrase Hunter Logo](blob/master/images/SplashImage.png)
+![Phrase Hunter Logo](/images/SplashImage.png)
 
 The 'Phrase Hunter' image is found in the repository as both a Scalable Vector Graphic and a PNG. In some cases, SVGs are smaller but in this case the complexity of the images makes the PNG a smaller sized option. 
 
@@ -40,7 +40,14 @@ When implemented, images and details will be posted about:
  * Media Queries for mobile/desktop
  * Dark/Light mode 
 
-## Test Fucntionality
+### Dark/Light Mode
+![Dark Mode](/images/READMEimages/DarkMode.png)
+![Light Mode](/images/READMEimages/LightMode.png)
+
+## Mobile/Destop Query
+![Mobile asks user to switch devices](/images/READMEimages/MediaQuery.png)
+![Full Size Device Displays Correctly](/images/READMEimages/QueryOK.png)
+## Test Functionality
 
 Visit https://aeronroemer.github.io/JS-Object-Oriented-Game/ to test the functionality of this project. 
 
