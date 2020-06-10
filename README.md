@@ -50,7 +50,3 @@ When implemented, images and details will be posted about:
 ## Test Functionality
 
 Visit https://aeronroemer.github.io/JS-Object-Oriented-Game/ to test the functionality of this project. 
-
-### Just For Fun
-
-Visit https://coolors.co - the site I used to generate a color palette with a good range of darks & lights. 
