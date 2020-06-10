@@ -24,6 +24,7 @@
 }
 
 body {
+  background-color: #fff;
   justify-content: space-evenly;
   flex-direction: column;
   display: flex;
@@ -35,13 +36,15 @@ li, ol, ul {
   display: inline-block;
 }
 
+h3 {
+  margin: 10px;
+  font-size: 30px;
+}
 h2 {
   margin: 0;
   text-transform: uppercase;
   font-size: var(--font-size-large);
-  margin: 0;
 }
-
 h1 {
   font-size: 30px;
 }
@@ -77,6 +80,10 @@ button {
 .section {
   width: 100%;
   padding: 10px;
+}
+
+#banner {
+  margin-top: 30px;
 }
 
 #phrase ul li{
@@ -202,4 +209,33 @@ button {
 
 .lose a {
   color: var(--color-lose);
+}
+/* Media Options */
+
+#mobile-warning{
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+  }
+  .start a {
+    color: #000;
+  }
+  
+}
+
+@media all and (max-width: 600px){
+  #overlay img {
+    width: 100%;
+  }
+
+  #mobile-warning{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .start-game{
+    display: none;
+  }
 }

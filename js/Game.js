@@ -1,7 +1,7 @@
 /* Treehouse FSJS Techdegree
  * Project 4 - OOP Game App
  * Game.js */
-
+document.getElementById('js-off').style.display = 'none'
  // creates class Game
 class Game{
     constructor(){
