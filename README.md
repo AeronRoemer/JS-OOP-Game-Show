@@ -41,12 +41,12 @@ When implemented, images and details will be posted about:
  * Dark/Light mode 
 
 ### Dark/Light Mode
-![Dark Mode](/images/READMEimages/DarkMode.png)
-![Light Mode](/images/READMEimages/LightMode.png)
+![Dark Mode](/READMEimages/DarkMode.png)
+![Light Mode](/READMEimages/LightMode.png)
 
 ## Mobile/Destop Query
-![Mobile asks user to switch devices](/images/READMEimages/MediaQuery.png)
-![Full Size Device Displays Correctly](/images/READMEimages/QueryOK.png)
+![Mobile asks user to switch devices](/READMEimages/MediaQuery.png)
+![Full Size Device Displays Correctly](/READMEimages/QueryOK.png)
 ## Test Functionality
 
 Visit https://aeronroemer.github.io/JS-Object-Oriented-Game/ to test the functionality of this project. 
