@@ -65,7 +65,8 @@ button {
 
 #btn__reset {
 	width: 200px;
-	margin: 0 auto;
+  margin: 0 auto;
+  background-color: transparent;
 }
 
 .main-container {
@@ -89,7 +90,20 @@ button {
 #phrase ul li{
   margin-top: 15px;
 }
-
+.start-btn {
+  border-color: white;
+  background-color: transparent;
+  color: #fff;
+  
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.start-btn:hover {
+  background-color: transparent;
+  cursor: pointer;
+  border-color: #ffd2eb;
+  box-shadow: 0 0 10px 0 #EB3B95 inset, 0 0 10px 4px #F946A8;
+}
 /* Title */
 
 .header {
@@ -205,6 +219,9 @@ button {
 
 .lose {
   background-color: #f5785f;
+}
+#game-over-message{
+  margin-bottom: 20PX;
 }
 
 .lose a {

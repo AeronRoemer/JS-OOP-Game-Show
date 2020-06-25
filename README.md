@@ -1,6 +1,6 @@
 # Phrase Hunter
 Created based on project from Teamtreehouse.com. 
-HTML slightly altered, existing CSS code altered by adding media queries and enhancing flexbox layout to work on mobile devices. 
+HTML slightly altered, existing CSS code altered by adding media queries and enhancing flexbox layout to work on mobile devices, as well as creating a 'neon' button. 
 Javascript created by me. 
 If you are also student and  working on this or a similar project, feel free to reach out to me with anyquestions about this code. I've made an effort to include helpful comments anddocumentation for fellow learners. 
 
