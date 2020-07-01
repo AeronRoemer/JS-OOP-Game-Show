@@ -48,7 +48,7 @@ When implemented, images and details will be posted about:
 ## Mobile/Desktop Query
 | Mobile| Desktop |
 | --- | --- |
-| ![Mobile asks user to switch devices](/READMEimages/MediaQuery.png) | ![Full Size Device Displays Correctly](/READMEimages/QueryOK.png) |
+| ![Mobile asks user to switch devices](/READMEimages/MediaQuery.png) | ![Full Size Device Displays Correctly](/READMEimages/QueryFull.png) |
 
 * Note the button customized to match the typeface on hover. 
 
