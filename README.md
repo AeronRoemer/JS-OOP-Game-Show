@@ -41,12 +41,17 @@ When implemented, images and details will be posted about:
  * Dark/Light mode 
 
 ### Dark/Light Mode
-![Dark Mode](/READMEimages/DarkMode.png)
-![Light Mode](/READMEimages/LightMode.png)
+| Dark| Light |
+| --- | --- |
+| ![Dark Mode](/READMEimages/DarkMode.png) | ![Light Mode](/READMEimages/LightMode.png) |
 
-## Mobile/Destop Query
-![Mobile asks user to switch devices](/READMEimages/MediaQuery.png)
-![Full Size Device Displays Correctly](/READMEimages/QueryOK.png)
+## Mobile/Desktop Query
+| Mobile| Desktop |
+| --- | --- |
+| ![Mobile asks user to switch devices](/READMEimages/MediaQuery.png) | ![Full Size Device Displays Correctly](/READMEimages/QueryOK.png) |
+
+* Note the button customized to match the typeface on hover. 
+
 ## Test Functionality
 
 Visit https://aeronroemer.github.io/JS-Object-Oriented-Game/ to test the functionality of this project. 
