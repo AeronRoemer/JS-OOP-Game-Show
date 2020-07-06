@@ -196,7 +196,10 @@ button {
   right: 0;
   border-radius: 5px;
 }
-
+.overlay-img{
+  width: 60%;
+  height: auto;
+}
 .title {
   color: #FFF;
 }

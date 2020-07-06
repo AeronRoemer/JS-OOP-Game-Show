@@ -15,6 +15,7 @@ The main technologies and concepts demonstrated in this project are
 * javaScript: Object Oriented Programming
 * Adobe Illustrator
 * SVG Graphics
+* Responsive Image Density 
 * CSS Flexbox
 * CSS Media Queries
 
@@ -30,7 +31,17 @@ Benefits of the SVG include:
 Benefits of PNG the include
 * often smaller file sizes for images with complex colors
 * transparency in PNG-24 files
-
+### Density and Resolution Switching
+HTML enables different image resolutions depending on the pixel density of the display. 'Srcset' attribute allows browsers to select best image size, with 'src' as a fallback image. Since there is no art direction for different size devices, ```<picture>``` was not used
+```
+<!-- DENSITY AND RESOLUTION SWITCHING-->
+<img srcset="images/SplashImage_3x.png 3x,
+    images/SplashImage.png 2x,
+    images/SplashImage_sm.png 1x"
+    src="images/SplashImage.png"
+    class="overlay-img"
+    alt="Phrase Hunter logo">
+```
 ### The typefaces used in the logo were:
 The 'Phrase' text on the logo is based on 'Sidecar' by Fenotype -> https://fenotype.com/. The 'Hunter' text is loosely based on DIN Condensed, an Adobe Font ->https://fonts.adobe.com/. The Neon effect was created in Adobe Illustrator.
 

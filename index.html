@@ -13,7 +13,13 @@
 	<body>
 		<div class="main-container">
 			<div id="overlay" class="start">
-				<img src="images/SplashImage.png" alt="Phrase Hunter" width="60%"/>
+				<!-- DENSITY AND RESOLUTION SWITCHING-->
+				<img srcset="images/SplashImage_3x.png 3x,
+					images/SplashImage.png 2x,
+					images/SplashImage_sm.png 1x"
+					src="images/SplashImage.png"
+					class="overlay-img"
+					alt="Phrase Hunter logo">
 				<h1 id="game-over-message"></h1>
 				<div id="mobile-warning">Please access the game on a tablet or desktop to play!</div>
 
@@ -24,7 +30,7 @@
 			</div>
 
 			<div id="banner" class="section">
-				<img src="images/SplashImage.png" alt="Phrase Hunter" width="50%"/>
+				<img src="images/SplashImage.png 2x, images/SplashImage_sm.png 1x" alt="Phrase Hunter" width="50%"/>
 			</div>
 
 			<div id="phrase" class="section">
